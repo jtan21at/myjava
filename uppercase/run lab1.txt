@@ -1,0 +1,12 @@
+Enter a string letters only: dfsdfdfs
+
+The Uppercase String  =  DFSDFDFS
+Original string:dfsdfdfs
+Enter a string letters only: FDFDSFSDFDSF
+
+The Uppercase String  =  FDFDSFSDFDSF
+Original string:FDFDSFSDFDSF
+Enter a string letters only: ldsjfjldsfDFSFDSFDFSF
+
+The Uppercase String  =  LDSJFJLDSFDFSFDSFDFSF
+Original string:ldsjfjldsfDFSFDSFDFSF

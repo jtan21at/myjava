@@ -1,0 +1,5 @@
+Write a Java application that reads a text file to a String (no need to parse to any other data type)
+Write a Java application that reads a text file to a String (no need to parse to any other data type) and shows whether the strin
+g contains all 26 letters of the (English version of the Latin) alphabet. For example, "Pack my box with five dozen liquor jugs" cont
+ains all 26 letters, but "The quick frown box jumps over the hazy log" does not contain a d. 
+
