@@ -13,9 +13,9 @@ class House extends building {
 	}
 
 	public void explore() {
-		System.out.println("the size of the house is" + size);
-		System.out.println(name);
-		System.out.println(desc);
+		System.out.print("You pass a" + size+ "meter house");
+		System.out.print("with a(n)");
+		System.out.print(" ");
 		System.out.println(featu);
 		if (haunted) {
 			System.out.println("Watch out! A ghost!");

@@ -1,5 +1,5 @@
 package ck2;
-
+import java.util.Scanner;
 public class Street {
 
 	public String name = "a street";
@@ -36,16 +36,24 @@ public class Street {
 		
 	}
 	//
+	int num_hun=0;
 	public void explore() {
 	for(int i = 0;i<stBuild.length;i++)	{
 		stBuild[i].explore();
+		if(stBuild[i].haunted) {
+			num_hun++;
+		}
 	}
 	}
 //
 
 	public void morningStroll() {
-		System.out.println("Let's go for a morning stroll on Mayhew Street,");
+		System.out.println("Let's go for a morning stroll on "+ name+ "Street");
+		this.explore();
 
 	}	
+	public int getNumHaunted() {
+		return num_hun;
+	}
 	
 }//

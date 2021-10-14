@@ -22,9 +22,9 @@ public class Asylum extends building {
 	}
 
 	public void explore() {
-		System.out.println("the size of the Asylum is" + size);
-		System.out.println(name);
-		System.out.println(desc);
+		System.out.print("You pass a" + size+"house");
+		System.out.print("with");
+		System.out.print("a(n)");
 		System.out.println(featu);
 		if (haunted) {
 			System.out.println("Watch out! A ghost!");
