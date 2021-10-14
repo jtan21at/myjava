@@ -1,0 +1,13 @@
+how many times you like to try?
+3
+Enter a string:
+aabbccbbaa
+aabbccbbaa is a palindrome
+
+Enter a string:
+22291019222
+22291019222 is a palindrome
+
+Enter a string:
+aabbccaaba
+aabbccaaba is not a palindrome
